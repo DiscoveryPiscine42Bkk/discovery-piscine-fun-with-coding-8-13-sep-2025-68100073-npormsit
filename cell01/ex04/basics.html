@@ -2,26 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basics</title>
-    <link rel="stylesheet" href="basic.css">
+    <style>
+        body {
+            background-color: pink;
+        }
+
+        .main-title {
+            color: white;
+            text-align: center;
+            font-size: 4em;
+        }
+
+        .shops-container {
+            text-align: center;
+        }
+
+        .shop-item {
+            display: inline-block;
+            margin: 20px;
+        }
+
+        .shop-item img {
+            width: 250px;
+            height: 150px;
+            object-fit: contain;
+        }
+        
+        .shop-item a {
+            display: block;
+            margin-top: 10px;
+        }
+
+        .footer {
+            text-align: right;
+            font-style: italic;
+            font-family: monospace;
+            padding-right: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>*-So Bigger-*</h1>
-    <div class="store">
-        <div>
-            <img src="https://sushiromenusg.org/wp-content/uploads/2025/06/Sushiro-Salmon-Nigiri-Menu.webp" alt="baguette">
-            <a href="https://youtu.be/sahd3fzCdZg?si=sE7X2iWjgvhR35UX"><h2>Click Me!</h2></a>
+
+    <h1 class="main-title"> Online Stores </h1>
+
+    <div class="shops-container">
+        
+        <div class="shop-item">
+            <img src="https://i.insider.com/602ee9d82edd0f00184d623e?width=1136&format=jpeg" alt="Shopee Logo">
+            <a href="https://shopee.co.th/">Visit Shopee</a>
         </div>
-        <div>
-            <img src="https://www.southernliving.com/thmb/UfsmR5OQyqgZSf3qiNs0ZiL2Jts=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/mamas-fried-chicken_audit1819_beauty_197-9d9a60dbcede4c7984c6d670fba69e08.jpg" alt="Le funny ore uranium">
-            <a href="https://youtu.be/RBumgq5yVrA?si=__NPcw4Cf7Xzj8UG"><h2>Click Me!</h2></a>
+
+        <div class="shop-item">
+            <img src="https://logowik.com/content/uploads/images/lazada-new-20195097.jpg" alt="Lazada Logo">
+            <a href="https://www.lazada.co.th/">Visit Lazada</a>
         </div>
+
     </div>
-    <footer>
-        <hr>
-        <h4>© arucha 2022</h4>
-    </footer>
+
+    <hr>
+
+    <p class="footer">
+        &copy; your_login 2025
+    </p>
+
 </body>
 </html>
